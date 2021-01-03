@@ -1,0 +1,86 @@
+.header{
+  background-color: rgb(23, 20, 33);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-right: 5%;
+  height:60px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+}
+.hero{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: rgb(30, 26, 59);
+  height: 250px;
+  margin: 0;
+}
+h1{
+  align-items: center;
+  justify-content: center;
+  max-width: 850px;
+  height: 150px;
+  margin: 0 auto;
+  padding-right: 400px;
+  background-image: url(../images/hero.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  line-height:1.5;
+  letter-spacing:-.2;
+  font-size: 30px;
+  color: white;
+}
+
+strong{
+  color: rgb(133, 38, 133);
+}
+h2{
+  color:rgb(34, 0, 146);
+}
+.proyect{
+  display:flex;
+  border: 1px solid rgb(48, 45, 45);
+  margin:  30px auto;
+  border-radius: 20px;
+  max-width: 880px;
+  padding: 10px;
+}
+.content{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: block;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  
+}
+footer{
+  background-color: rgb(23, 20, 33);
+  display: flex;
+  justify-content: space-between;
+}
+footer p{
+  padding-right: 20px;
+  color: white;
+}
+  .proyect-url a{
+    color: blue;
+  }

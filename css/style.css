@@ -5,6 +5,7 @@
   margin: 0;
   padding-right: 5%;
   height:60px;
+  flex-wrap: wrap ;
 }
 .logo{
   display: flex;
@@ -57,6 +58,7 @@ h2{
 }
 .proyect{
   display:flex;
+  flex-wrap: wrap;
   border: 1px solid rgb(48, 45, 45);
   margin:  30px auto;
   border-radius: 20px;
@@ -84,3 +86,19 @@ footer p{
   .proyect-url a{
     color: blue;
   }
+  /* Comenzar desde el MQ más grande*/
+@media screen and (max-width:1024px){
+
+}
+
+@media screen and (max-width: 768px){
+
+ }
+  
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 320px){
+
+}

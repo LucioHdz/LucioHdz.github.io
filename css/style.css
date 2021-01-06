@@ -4,7 +4,8 @@
   justify-content: space-between;
   margin: 0;
   padding-right: 5%;
-  height:60px;
+  height:70px;
+  flex:1;
   flex-wrap: wrap ;
 }
 .logo{
@@ -99,6 +100,27 @@ footer p{
 
 }
 
-@media screen and (max-width: 320px){
-
+@media screen and (max-width: 479px){
+ .header{
+   display: block;
+   height: auto;
+  }
+  .menu{
+    display:block;
+  }
+  .menu ul{   
+   display: inline;
+   padding: 0;
+  }
+  .menu ul li{
+    height:  20px;
+  }
+  .header a{
+    display: flex;
+    justify-content: center;
+  }
+  .header .logo{
+    text-align: center;
+    justify-content:center;
+  }
 }

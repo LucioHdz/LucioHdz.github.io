@@ -104,7 +104,25 @@ footer p{
 @media screen and (max-width:1024px){
   
 }
-@media screen and (max-width: 680px){
+@media screen and (max-width:786px){
+  .hero-title{
+    font-size:20px ;
+  }
+}
+@media screen and (max-width: 553px){
+  
+  h1{
+    background-image: none;
+    background-size: auto;
+    background-position: left;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 50px;
+  }
+  .hero{
+    height: 120px;
+  }
 }
 
 @media screen and (max-width: 479px){

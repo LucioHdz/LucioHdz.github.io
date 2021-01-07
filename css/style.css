@@ -60,11 +60,16 @@ h2{
 .proyect{
   display:flex;
   flex-wrap: wrap;
-  border: 1px solid rgb(48, 45, 45);
-  margin:  30px auto;
-  border-radius: 20px;
-  max-width: 880px;
+  justify-content: center;
+  border: 2px solid rgb(48, 45, 45);
+  margin:  30px 10px;
+  border-radius: 10px;
+  max-width: 500px;
+  max-height: 500px;
   padding: 10px;
+}
+.proyect-details{
+  width: 50%;
 }
 .content{
   max-width: 1000px;
@@ -75,6 +80,7 @@ h2{
   justify-content: center;
   
 }
+
 footer{
   background-color: rgb(23, 20, 33);
   display: flex;
@@ -87,17 +93,18 @@ footer p{
   .proyect-url a{
     color: blue;
   }
+  .proyect-imageContainer{
+    width: 70%;
+  }
+  .proyect-image  {
+    width: 100%;
+  }
+
   /* Comenzar desde el MQ más grande*/
 @media screen and (max-width:1024px){
-
-}
-
-@media screen and (max-width: 768px){
-
- }
   
-@media screen and (max-width: 480px){
-
+}
+@media screen and (max-width: 680px){
 }
 
 @media screen and (max-width: 479px){
@@ -123,4 +130,5 @@ footer p{
     text-align: center;
     justify-content:center;
   }
+
 }
